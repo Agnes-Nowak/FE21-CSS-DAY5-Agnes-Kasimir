@@ -1,0 +1,43 @@
+body{
+    //-margin-right: 4em;
+    //-margin-left: 4em;
+    header{
+        background-color: aquamarine;
+        display: flex;
+        height: 50px;
+        justify-content: space-between;
+        div {
+            float: right;
+            div {
+                box-sizing: content-box;
+                width: 8em;
+                margin-right: 2em;
+                height: 50px;
+                background-color: pink;
+            }
+        }
+    }
+    main {
+        display: flex;
+        div{
+            width: 50%;
+            margin: 0 auto;
+            div{
+                width:100%;
+                img{
+                    width:100%;
+                }
+                div{
+                    display: flex;
+                    img{}
+                }
+            }
+        }
+        div{
+            width: 50%;
+            margin: 0 auto;
+                }
+            }
+        }
+    }
+}
