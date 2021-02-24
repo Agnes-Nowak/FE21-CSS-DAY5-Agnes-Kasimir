@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Ballet&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4f4e4a;
+  font: 150% "Ballet", cursive;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+
+body header {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header img {
+  width: 2.5em;
+  padding: 1em;
+}
+
+body header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header div div {
+  padding: 20px;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1000px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9tfzlHzBPql_MYcc9S8hL4tNV2YMmApOxcg&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main div {
+  padding: 3em;
+}
+
+body footer {
+  text-align: center;
+  background-color: black;
+}
+/*# sourceMappingURL=styles.css.map */
